@@ -1,0 +1,5 @@
+1.- git clone
+2.- git status Cuando ya subimos los cambios a la carpetara
+3. git add. prueba txt
+4.- git commit -m "que hice/descripcion del cambip"
+5.- git push 
