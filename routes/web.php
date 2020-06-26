@@ -145,7 +145,10 @@ Route::get('/asunto', 'EmailContactoController@store')->name('email.store');
 Route::get('/citas/info', 'CitaController@index')->name("cita.index");
 Route::get('/citas/create', 'CitaController@create')->name("cita.create");
 Route::post('/citas', 'CitaController@store')->name("cita.store");
-Route::get('/dashboard', 'CitaController@show')->name('cita.show');
+Route::get('/dashboard2', 'CitaController@show')->name('cita.show');
+
+//directorio
+Route::get('/dashboard', 'Prueba@show')->name('directorio.show');
 
 //Esta es la que muestra
 Route::get('/citas/{id}/edit', 'CitaController@edit')->name("cita.edit");

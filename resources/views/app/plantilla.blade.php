@@ -135,8 +135,8 @@
           </summary>
           <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="">
-              <i class="ni ni-fat-add text-red"></i> Ingresos
+            <a class="nav-link" href="{{ route('cita.show')}}">
+              <i class="ni ni-fat-add text-red"></i> Citas
             </a>
           </li>
           
